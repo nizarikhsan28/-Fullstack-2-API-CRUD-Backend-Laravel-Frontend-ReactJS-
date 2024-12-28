@@ -1,0 +1,119 @@
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; /* Abu muda */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* Putih untuk kontras */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #636363; /* Abu-abu gelap */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #636363; /* Border abu-abu */
+    outline: none;
+    box-shadow: 0 0 5px rgba(99, 99, 99, 0.5);
+}
+
+form button {
+    background-color: #636363; /* Tombol abu-abu gelap */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #444444; /* Tombol abu-abu lebih gelap */
+}
+
+form button[type="button"] {
+    background-color: #8c8c8c; /* Tombol abu-abu lebih terang */
+}
+
+form button[type="button"]:hover {
+    background-color: #707070;
+}
+
+/* Tabel styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #636363; /* Background abu-abu gelap */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Abu muda untuk baris genap */
+}
+
+table tr:hover {
+    background-color: #e0e0e0; /* Abu lebih gelap untuk hover */
+}
+
+/* Tombol aksi */
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button.edit {
+    background-color: #8c8c8c;
+}
